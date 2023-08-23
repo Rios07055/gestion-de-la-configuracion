@@ -15,17 +15,17 @@ class Game(object):
 
     def display_ui(self, record):
         self.display_juego.fill((255, 255, 255))
-        score_txt = self.font.render('Puntaje actual: ', True, (100, 0, 0))
-        score_num = self.font.render(str(self.score), True, (100, 0, 0))
-        record_txt = self.font.render('Puntaje M: ', True, (100, 0, 0))
-        record_num = self.font.render(str(record), True, (100, 0, 0))
+        score_txt = self.font.render('PUNTAJE ACTUAL: ', True, (0, 100, 0))
+        score_num = self.font.render(str(self.score), True, (0, 100, 0))
+        record_txt = self.font.render('PUNTAJE MAXIMO: ', True, (0, 100, 0))
+        record_num = self.font.render(str(record), True, (0, 100, 0))
 
         pygame.draw.rect(self.display_juego, (200, 200, 200), (0, self.alto_juego, self.alto_juego, 100))
 
-        self.display_juego.blit(score_txt, (45, 480))
-        self.display_juego.blit(score_num, (170, 480))
-        self.display_juego.blit(record_txt, (270, 480))
-        self.display_juego.blit(record_num, (350, 480))
+        self.display_juego.blit(score_txt, (40, 440))
+        self.display_juego.blit(score_num, (100, 470))
+        self.display_juego.blit(record_txt, (250, 440))
+        self.display_juego.blit(record_num, (320, 470))
         self.display_juego.blit(self.fondo, (0, 0))
 
     def obtener_record(self, score, record):
@@ -65,16 +65,16 @@ class Player(object):
 
         for e in pygame.event.get():
             if e.type == pygame.KEYDOWN:
-                if e.key == pygame.K_a and self.direccion != [1, 0]:
+                if (e.key == pygame.K_a or e.key == pygame.K_LEFT) and self.direccion != [1, 0]:
                     array_m = [-20, 0]
                     self.direccion = [-1, 0]
-                elif e.key == pygame.K_d and self.direccion != [-1, 0]:
+                elif (e.key == pygame.K_d or e.key == pygame.K_RIGHT) and self.direccion != [-1, 0]:
                     array_m = [20, 0]
                     self.direccion = [1, 0]
-                elif e.key == pygame.K_w and self.direccion != [0, -1]:
+                elif (e.key == pygame.K_w or e.key == pygame.K_UP) and self.direccion != [0, -1]:
                     array_m = [0, -20]
                     self.direccion = [0, 1]
-                elif e.key == pygame.K_s and self.direccion != [0, 1]:
+                elif (e.key == pygame.K_s or e.key == pygame.K_DOWN) and self.direccion != [0, 1]:
                     array_m = [0, 20]
                     self.direccion = [0, -1]
 
@@ -120,9 +120,6 @@ class Food(object):
             self.comida_coor(game, player)
             player.comida = True
             game.score += 1
-
-
-
 
 
 def run():
