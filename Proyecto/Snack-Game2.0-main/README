@@ -46,6 +46,7 @@ vamos al símbolo + en el buscador pondremos numpy y le daremos Install Package,
 cerramos esta pestaña, le damos en OK
 
 Y ya podemos ejecutar el juego y jugarlo con normalidad, El juego se puede mover con W,A,S,D y también con las flechas, el juego tiene:
-puntaje actual y el puntaje máximo, si colisionas contra la pared pierdes, si te chocas contigo mismo igual, si cierras el juego se perderá el puntaje máximo, ya que este solo se refleja por partida, para finalizar el juego debes de darle en el icono Rojo, el cual dice Stop
+puntaje actual y el puntaje máximo, si colisionas contra la pared pierdes, si te chocas contigo mismo igual, si cierras el juego se perderá el puntaje máximo, ya que este solo se refleja por partida,
+para finalizar el juego debes de darle en el icono Rojo, el cual dice Stop
 
 Eso es todo y muchas gracias.
