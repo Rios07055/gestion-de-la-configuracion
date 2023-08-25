@@ -1,3 +1,51 @@
+
+ como instalar GIT Enel sistema operativo  Windows:
+
+Visita el sitio web oficial de Git: https://git-scm.com/download/win
+Descarga el instalador ejecutable para Windows.
+te diriges o direccionaste que se guardara el archivo descargado.
+Siguiendo las instrucciones del instalador. Puedes aceptar la configuración predeterminada que te recomienda el programa o en en algunos casos tu sistema.
+Durante la instalación, puedes elegir el editor de texto que prefieras para usar con Git (por ejemplo, Notepad++ o Visual Studio Code).
+Una vez completada la instalación, abre la línea de comandos o el Git Bash para verificar que Git se haya instalado correctamente. Puedes hacerlo ejecutando el comando git --version.
+ 
+
+
+
+Como clonar un repositorio desde GITBASH
+Abre una terminal o línea de comandos en tu sistema.
+Navega hasta la ubicación donde deseas clonar el repositorio. Puedes usar el comando cd para cambiar de directorio. Por ejemplo:cd /ruta/del/directorio                                                                                                                                                                               Luego, usa el comando git clone seguido de la URL del repositorio que deseas clonar. La URL se puede copiar desde la página del repositorio en GitHub, GitLab u otra plataforma. Por ejemplo:git clone https://github.com/usuario/nombre-del-repositorio.git
+Esto creará una carpeta con el nombre del repositorio en el directorio actual y descargará todo el contenido del repositorio en esa carpeta.
+Si el repositorio es privado y estás usando HTTPS como protocolo de acceso, se te pedirá que ingreses tus credenciales de usuario (nombre de usuario y contraseña) para autenticarte.
+Una vez que se complete la clonación, tendrás una copia local completa del repositorio en tu máquina. Puedes navegar a la carpeta del repositorio clonado con el comando cd nombre-del-repositorio.
+Recuerda que también puedes clonar un repositorio utilizando el protocolo SSH en lugar de HTTPS si has configurado una clave SSH en tu cuenta de Git. En ese caso, la URL sería algo como git@github.com:usuario/nombre-del-repositorio.git.
+Una vez que hayas clonado el repositorio, puedes trabajar en él, hacer cambios, confirmarlos y sincronizar con el repositorio remoto utilizando comandos Git.
+
+
+¿Que es un clave SSH?
+una clave SHH es un contraseña que se utiliza para tener una auteticacion de la red SSH que se utiliza para la comunicacion entre maquinas en una red abierta no segura
+
+¿Dónde está mi clave SSH?
+Abra TerminalGit Bash. Escriba ls -al ~/. ssh para ver si hay claves SSH existentes. Comprueba la lista de directorio para ver si ya tiene una clave SSH pública.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Buenas tardes profe, como anteriormente te habíamos mostrado, es un juego de la serpiente, el cual lo llame Snake game 2.0
 
 Primero que nada, se debe de tener un sistema operativo Windows, desconozco si sirve en mac, ya que solo se ha ejecutado en Windows
