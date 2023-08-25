@@ -1,5 +1,7 @@
+bueno profe, para iniciar esto lo primero que debes hacer es tener un dispositivo window, irte a tu navegador y descaragar Git hub para ver el repositorio del proyecto 
+luego de descargar el git hub, debes iniciar sesion o crearte una cuenta con tu correo.
 
- como instalar GIT Enel sistema operativo  Windows:
+ como instalar GIT Enel sistema operativo  Windows:?
 
 Visita el sitio web oficial de Git: https://git-scm.com/download/win
 Descarga el instalador ejecutable para Windows.
@@ -30,21 +32,21 @@ Abra TerminalGit Bash. Escriba ls -al ~/. ssh para ver si hay claves SSH existen
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Comandos para clonar el Repositorio 
+Bueno, primero tenemos que crear una carpeta donde queremos descargar el proyecto 
+despues En GitHub.com, navega a la página principal del repositorio.
+Encima de la lista de archivos, haz clic en  Código.
+Copia la dirección URL del repositorio con HTTPS, en "HTTPS".
+luego nos vamos a la carpeta que creamo y le damos click derecho dentro de la carpeta y seleccionamdos la opcion "git bash here"
+luego se abre la consola y procedemos a inicializar el proyecto con el comando " git init" y presionamos enter 
+y luego colocamos  git clone y despues la Url del repositorio, ejemplo : "git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY" presionamos enter y el repositorio procede a clonarse localmanete 
+un ejemplo de lo que sale :  git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+y ya quedara clonado.
 
 Buenas tardes profe, como anteriormente te habíamos mostrado, es un juego de la serpiente, el cual lo llame Snake game 2.0
 
@@ -52,19 +54,9 @@ Primero que nada, se debe de tener un sistema operativo Windows, desconozco si s
 
 El juego no consume muchos recursos así que a cuestión de recursos no importa
 
-
-
-
 Borrar los espacios que sobre y acá colocan los comandos para que el profesor duplique el repo, traten de duplicarlo ustedes para que si funcione y no haya problemas
 
 Suba uno la guia de descarga y el otro los comandos y sale, para que los dos queden con los comit
-
-
-
-
-
-
-
 
 Este se ejecuta en PyCharm y se instala la librería pygame
 
