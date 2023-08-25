@@ -1,1 +1,51 @@
+Buenas tardes profe, como anteriormente te habíamos mostrado, es un juego de la serpiente, el cual lo llame Snake game 2.0
 
+Primero que nada, se debe de tener un sistema operativo Windows, desconozco si sirve en mac, ya que solo se ha ejecutado en Windows
+
+El juego no consume muchos recursos así que a cuestión de recursos no importa
+
+
+
+
+Borrar los espacios que sobre y acá colocan los comandos para que el profesor duplique el repo, traten de duplicarlo ustedes para que si funcione y no haya problemas
+
+Suba uno la guia de descarga y el otro los comandos y sale, para que los dos queden con los comit
+
+
+
+
+
+
+
+
+Este se ejecuta en PyCharm y se instala la librería pygame
+
+¿Como instalar pycharm?
+
+En el siguiente enlace, te vas a instalar el PyCharm Edu, la última versión
+Link: https://download.jetbrains.com/python/pycharm-edu-2022.2.2.exe?_gl=1*1xu9phw*_ga*NTk2ODExOTY2LjE2OTI1OTM4OTk.*_ga_9J976DJZ68*MTY5Mjk5MDUyOS4yLjEuMTY5Mjk5MTgyNi41OS4wLjA.&_ga=2.44874349.873376779.1692990529-596811966.1692593899
+
+Se siguen todos los pasos de la instalación, demora un poco, pero una vez se instale correctamente vamos a abrirlo
+
+
+¿Como instalar pygame y numpy?
+
+vamos a File
+
+Vamos al apartado de Settings
+
+En Project:main.py, le damos click y vamos al apartado de python interpreter
+
+Estando de Python Interpreter, nos aparece esto <No interpreter> le damos clic
+
+después le damos en Show All, nos abrirá un apartado nuevo, en el cual en la esquina superior izquierda le damos en +, Nos
+va a aparecer otro apartado en el cual le daremos clic a Virtualenv Environment que es el primero, después le damos OK, nuevamente OK
+Ya estando en este apartado nos aparecen los Package, los cuales nos hace falta pygame y numpy, entonces,
+Le daremos en el símbolo + y buscaremos pygame, le daremos en install Package y se comenzara a instalar, una vez se instale aparece en verde, después seguiremos con numpy,
+vamos al símbolo + en el buscador pondremos numpy y le daremos Install Package, una vez se instale aparece en verde que significa que se instaló correctamente
+cerramos esta pestaña, le damos en OK
+
+Y ya podemos ejecutar el juego y jugarlo con normalidad, El juego se puede mover con W,A,S,D y también con las flechas, el juego tiene:
+puntaje actual y el puntaje máximo, si colisionas contra la pared pierdes, si te chocas contigo mismo igual, si cierras el juego se perderá el puntaje máximo, ya que este solo se refleja por partida, para finalizar el juego debes de darle en el icono Rojo, el cual dice Stop
+
+Eso es todo y muchas gracias.
